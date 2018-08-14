@@ -1,0 +1,7 @@
+<h1>
+  <%= @article.title %>
+  <%=link_to((fa_icon 'pencil'), edit_article_path(@article.id))%>
+</h1>
+<p>
+  <%= @article.content %>
+</p>
